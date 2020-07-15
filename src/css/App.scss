@@ -1,0 +1,46 @@
+body {
+
+  .container {
+    margin: auto;
+    min-width: 600px;
+    max-width: 70%;
+    border-color: red;
+
+    .header {
+      background-color: sandybrown;
+      text-align: center;
+      h1 {
+        padding: 1em;
+        margin: 0;
+        color: blue;
+      }
+    }
+  
+    .catalogue {
+      background-color: sandybrown;
+      padding: 1em;
+      display: grid;
+      grid-auto-columns: repeat 9 ;
+      column-gap: 60px;
+      justify-items: start;
+      
+      h3 {
+        grid-column: 1 / 6;
+      }
+
+      .right {
+        justify-self: end;
+      }
+
+      .total {
+        font-weight: bold;
+      }
+
+      input{
+        width: 2em;
+      }
+    }
+  }
+}
+
+
