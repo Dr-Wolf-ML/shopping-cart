@@ -1,3 +1,12 @@
+# shopping-cart
+- a bit of shopping cart logic with React Hooks
+- I wrote this for a coding test
+
+## ...a few notes 
+- this shopping cart uses a JSON file as a mock API for the real thing
+- special deals are also read from the API
+  - my instructions were to incluide free VGA adapter free of charge with every MacBook Pro sold, but I included a Super iPad as well;  if you don't like that, change it in the API  :)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,5 +75,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# shopping-cart
-a bit of shopping cart logic with React Hooks
